@@ -1,19 +1,41 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Yahoo Classique</title>
   <link rel="stylesheet" href="popup.css">
+  <script src="translations.js" defer></script>
   <script src="popup.js" defer></script>
 </head>
 <body>
-  <h1>Yahoo Classique</h1>
-  <p>Votre boîte Yahoo, avec un habillage violet inspiré de l’ancienne interface.</p>
-  <label><input id="enabled" type="checkbox" disabled> Activer l’habillage classique</label>
-  <p id="status" role="status">Chargement…</p>
-  <hr>
-  <p>Les polices et les fonctions de Yahoo sont conservées. Aucun mail n’est lu par l’extension.</p>
-  <p><a href="https://github.com/athor" target="_blank" rel="noopener noreferrer">athor sur GitHub</a> · Version 1.0.0</p>
+  <header class="popup-header">
+    <img src="icons/icon.svg" alt="" width="32" height="32">
+    <h1>Yahoo Classique</h1>
+  </header>
+  <main class="popup-content">
+  <p data-i18n="tagline">Your Yahoo inbox with a classic-inspired purple appearance.</p>
+  <label for="language" data-i18n="language">Language</label>
+  <select id="language" disabled>
+    <option value="en" lang="en">🇬🇧 English</option>
+    <option value="fr" lang="fr">🇫🇷 Français</option>
+    <option value="es" lang="es">🇪🇸 Español</option>
+    <option value="de" lang="de">🇩🇪 Deutsch</option>
+    <option value="it" lang="it">🇮🇹 Italiano</option>
+    <option value="pt" lang="pt">🇵🇹 Português</option>
+    <option value="nl" lang="nl">🇳🇱 Nederlands</option>
+    <option value="pl" lang="pl">🇵🇱 Polski</option>
+    <option value="ru" lang="ru">🇷🇺 Русский</option>
+    <option value="uk" lang="uk">🇺🇦 Українська</option>
+    <option value="ja" lang="ja">🇯🇵 日本語</option>
+    <option value="zh-CN" lang="zh-CN">🇨🇳 简体中文</option>
+  </select>
+  <label class="appearance-control"><input id="enabled" type="checkbox" disabled><span data-i18n="toggle">Enable classic appearance</span></label>
+  <p id="status" role="status">Loading…</p>
+  </main>
+  <footer class="popup-footer">
+  <p data-i18n="privacy">Yahoo’s fonts and features are preserved. This extension does not read your email.</p>
+  <p><a href="https://github.com/athor" target="_blank" rel="noopener noreferrer" data-i18n="github">athor on GitHub</a> · <span data-i18n="version">Version</span> <span id="version"></span></p>
+  </footer>
 </body>
 </html>

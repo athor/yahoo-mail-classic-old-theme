@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Yahoo Classique",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "athor",
   "description": "A classic-inspired purple appearance for the current Yahoo Mail interface.",
   "homepage_url": "https://github.com/athor",

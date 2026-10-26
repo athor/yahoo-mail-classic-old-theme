@@ -137,7 +137,7 @@ test('late-rendered Yahoo interface is observed only until ready', async () => {
 
 test('release manifest is Firefox-only, local-storage-only, and references packaged files', () => {
     const manifest = JSON.parse(readFileSync(new URL('manifest.json', extension), 'utf8'));
-    assert.equal(manifest.version, '1.0.0');
+    assert.equal(manifest.version, '1.1.0');
     assert.equal(manifest.author, 'athor');
     assert.deepEqual(manifest.permissions, ['storage']);
     assert.deepEqual(manifest.content_scripts[0].matches, ['https://mail.yahoo.com/*']);
