@@ -10,7 +10,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Settings unavailable. Close and reopen this panel.',
         saveError: 'Could not save. Your previous choice has been kept.',
         privacy: 'Yahoo’s fonts and features are preserved. This extension does not read your email.',
-        github: 'athor on GitHub', version: 'Version',
+        github: 'athor on GitHub', version: 'Version', support: 'Support me on Ko-fi',
     },
     fr: {
         language: 'Langue', tagline: 'Votre boîte Yahoo avec un habillage violet inspiré de l’ancienne interface.',
@@ -20,7 +20,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Réglages indisponibles. Fermez puis rouvrez ce panneau.',
         saveError: 'Enregistrement impossible. Votre choix précédent est conservé.',
         privacy: 'Les polices et les fonctions de Yahoo sont conservées. L’extension ne lit pas vos mails.',
-        github: 'athor sur GitHub', version: 'Version',
+        github: 'athor sur GitHub', version: 'Version', support: 'Me soutenir sur Ko-fi',
     },
     es: {
         language: 'Idioma', tagline: 'Tu bandeja de Yahoo con un aspecto violeta inspirado en la interfaz clásica.',
@@ -30,7 +30,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Ajustes no disponibles. Cierra y vuelve a abrir este panel.',
         saveError: 'No se pudo guardar. Se ha conservado tu selección anterior.',
         privacy: 'Se conservan las fuentes y funciones de Yahoo. La extensión no lee tus correos.',
-        github: 'athor en GitHub', version: 'Versión',
+        github: 'athor en GitHub', version: 'Versión', support: 'Apóyame en Ko-fi',
     },
     de: {
         language: 'Sprache', tagline: 'Ihr Yahoo-Postfach mit einem violetten Design im klassischen Stil.',
@@ -40,7 +40,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Einstellungen nicht verfügbar. Schließen und öffnen Sie dieses Fenster erneut.',
         saveError: 'Speichern fehlgeschlagen. Ihre vorherige Auswahl wurde beibehalten.',
         privacy: 'Yahoos Schriftarten und Funktionen bleiben erhalten. Die Erweiterung liest Ihre E-Mails nicht.',
-        github: 'athor auf GitHub', version: 'Version',
+        github: 'athor auf GitHub', version: 'Version', support: 'Unterstütze mich auf Ko-fi',
     },
     it: {
         language: 'Lingua', tagline: 'La tua casella Yahoo con un aspetto viola ispirato all’interfaccia classica.',
@@ -50,7 +50,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Impostazioni non disponibili. Chiudi e riapri questo pannello.',
         saveError: 'Salvataggio non riuscito. La selezione precedente è stata mantenuta.',
         privacy: 'I caratteri e le funzioni di Yahoo rimangono invariati. L’estensione non legge le tue email.',
-        github: 'athor su GitHub', version: 'Versione',
+        github: 'athor su GitHub', version: 'Versione', support: 'Sostienimi su Ko-fi',
     },
     pt: {
         language: 'Idioma', tagline: 'A sua caixa de correio Yahoo com um visual roxo inspirado na interface clássica.',
@@ -60,7 +60,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Definições indisponíveis. Feche e volte a abrir este painel.',
         saveError: 'Não foi possível guardar. A sua escolha anterior foi mantida.',
         privacy: 'Os tipos de letra e as funções do Yahoo são preservados. A extensão não lê os seus emails.',
-        github: 'athor no GitHub', version: 'Versão',
+        github: 'athor no GitHub', version: 'Versão', support: 'Apoie-me no Ko-fi',
     },
     nl: {
         language: 'Taal', tagline: 'Uw Yahoo-inbox met een paarse vormgeving geïnspireerd op de klassieke interface.',
@@ -70,7 +70,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Instellingen niet beschikbaar. Sluit en heropen dit venster.',
         saveError: 'Opslaan mislukt. Uw vorige keuze is behouden.',
         privacy: 'De lettertypen en functies van Yahoo blijven behouden. De extensie leest uw e-mails niet.',
-        github: 'athor op GitHub', version: 'Versie',
+        github: 'athor op GitHub', version: 'Versie', support: 'Steun mij op Ko-fi',
     },
     pl: {
         language: 'Język', tagline: 'Twoja skrzynka Yahoo w fioletowej szacie inspirowanej klasycznym interfejsem.',
@@ -80,7 +80,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Ustawienia są niedostępne. Zamknij i otwórz ponownie ten panel.',
         saveError: 'Nie udało się zapisać. Poprzedni wybór został zachowany.',
         privacy: 'Czcionki i funkcje Yahoo pozostają bez zmian. Rozszerzenie nie czyta Twoich wiadomości.',
-        github: 'athor na GitHubie', version: 'Wersja',
+        github: 'athor na GitHubie', version: 'Wersja', support: 'Wesprzyj mnie na Ko-fi',
     },
     ru: {
         language: 'Язык', tagline: 'Ваша почта Yahoo с фиолетовым оформлением в стиле классического интерфейса.',
@@ -90,7 +90,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Настройки недоступны. Закройте и снова откройте эту панель.',
         saveError: 'Не удалось сохранить. Предыдущий выбор сохранён.',
         privacy: 'Шрифты и функции Yahoo не меняются. Расширение не читает ваши письма.',
-        github: 'athor на GitHub', version: 'Версия',
+        github: 'athor на GitHub', version: 'Версия', support: 'Поддержать меня на Ko-fi',
     },
     uk: {
         language: 'Мова', tagline: 'Ваша пошта Yahoo з фіолетовим оформленням у стилі класичного інтерфейсу.',
@@ -100,7 +100,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: 'Налаштування недоступні. Закрийте та знову відкрийте цю панель.',
         saveError: 'Не вдалося зберегти. Попередній вибір збережено.',
         privacy: 'Шрифти та функції Yahoo не змінюються. Розширення не читає ваші листи.',
-        github: 'athor на GitHub', version: 'Версія',
+        github: 'athor на GitHub', version: 'Версія', support: 'Підтримати мене на Ko-fi',
     },
     ja: {
         language: '言語', tagline: 'Yahooの受信トレイを、従来の画面をイメージした紫色のデザインにします。',
@@ -110,7 +110,7 @@ globalThis.YahooClassiqueI18n = {
         loadError: '設定を読み込めません。このパネルを閉じて、もう一度開いてください。',
         saveError: '保存できませんでした。以前の設定が維持されています。',
         privacy: 'Yahooのフォントと機能は変更されません。この拡張機能はメールを読み取りません。',
-        github: 'GitHubのathor', version: 'バージョン',
+        github: 'GitHubのathor', version: 'バージョン', support: 'Ko-fiで応援する',
     },
     'zh-CN': {
         language: '语言', tagline: '为您的Yahoo收件箱应用灵感来自经典界面的紫色外观。',
@@ -120,6 +120,6 @@ globalThis.YahooClassiqueI18n = {
         loadError: '无法读取设置。请关闭并重新打开此面板。',
         saveError: '无法保存，已保留您之前的选择。',
         privacy: '保留Yahoo的字体和功能。此扩展不会读取您的邮件。',
-        github: 'GitHub上的athor', version: '版本',
+        github: 'GitHub上的athor', version: '版本', support: '在Ko-fi上支持我',
     },
 };

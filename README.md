@@ -1,4 +1,4 @@
-# Yahoo Classique
+# Yahoo Classic Old Theme
 
 An independent Firefox extension by **athor** that gives the current Yahoo Mail interface a purple, classic-inspired appearance. It does not restore Yahoo's discontinued interfaces.
 
@@ -12,6 +12,7 @@ An independent Firefox extension by **athor** that gives the current Yahoo Mail 
 - An on/off switch that updates open Yahoo Mail tabs without reloading them.
 - An English popup by default, with a language selector for English, French, Spanish, German, Italian, Portuguese, Dutch, Polish, Russian, Ukrainian, Japanese, and Simplified Chinese. Your choice is saved locally.
 - A matching popup theme with a purple header, light gray background, and blue controls.
+- A localized support button linked directly to [syphlr on Ko-fi](https://ko-fi.com/syphlr), with a bundled icon and no remote widget script.
 - Yahoo's existing fonts and virtualized message row dimensions are preserved.
 
 The styling targets the application interface. It does not change message bodies, send messages, select messages, or delete mail. The right pane retains its controls. The language selector translates the extension popup, including status and error messages; it does not translate Yahoo Mail itself. Language names accompany the flag icons, so the selector remains usable when flag emoji are not supported by the operating system.
@@ -23,7 +24,7 @@ The styling targets the application interface. It does not change message bodies
 3. Click **Load Temporary Add-on…**.
 4. Select `extension/manifest.json` from this project.
 5. Return to Yahoo Mail and reload the page once.
-6. Click Firefox's Extensions button, then **Yahoo Classique**, to access the on/off switch.
+6. Click Firefox's Extensions button, then **Yahoo Classic Old Theme**, to access the on/off switch.
 
 A temporary installation is removed when Firefox restarts. Permanent installation in standard Firefox requires Mozilla signing, including for privately distributed, unlisted extensions. Publishing the source on GitHub does not sign the extension. See [Mozilla's signing documentation](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/).
 

@@ -1,13 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Yahoo Classique",
-  "version": "1.1.0",
+  "name": "Yahoo Classic Old Theme",
+  "version": "1.1.1",
   "author": "athor",
   "description": "A classic-inspired purple appearance for the current Yahoo Mail interface.",
   "homepage_url": "https://github.com/athor",
   "permissions": ["storage"],
   "action": {
-    "default_title": "Yahoo Classique",
+    "default_title": "Yahoo Classic Old Theme",
     "default_popup": "popup.html",
     "default_icon": "icons/icon.svg"
   },

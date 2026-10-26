@@ -21,7 +21,7 @@ function popup(saved = {}, { readFails = false, writeFails = false } = {}) {
     const context = vm.createContext({
         document: { documentElement: root, getElementById: id => ids.get(id), querySelectorAll: () => textElements },
         browser: {
-            runtime: { getManifest: () => ({ version: '1.1.0' }) },
+            runtime: { getManifest: () => ({ version: '1.1.1' }) },
             storage: { local: {
                 get: async defaults => { if (readFails) throw Error('read'); return { ...defaults, ...state }; },
                 set: async values => {
@@ -65,7 +65,7 @@ test('popup defaults to English with the runtime version', async () => {
     const view = popup(); await view.ready();
     assert.equal(view.root.lang, 'en');
     assert.equal(view.ids.get('status').textContent, view.messages.en.active);
-    assert.equal(view.ids.get('version').textContent, '1.1.0');
+    assert.equal(view.ids.get('version').textContent, '1.1.1');
     assert.equal(view.ids.get('enabled').disabled, false);
     assert.equal(view.ids.get('language').disabled, false);
 });
@@ -130,4 +130,12 @@ test('popup theme matches the purple application theme without font overrides', 
     assert.match(css, /#168aff/);
     assert.doesNotMatch(css, /\bfont(?:-[\w-]+)?\s*:/i);
     assert.doesNotMatch(css, /@import|url\s*\(/i);
+});
+
+test('support button links directly to the requested profile without remote scripts', () => {
+    assert.match(html, /class="kofi-button" href="https:\/\/ko-fi\.com\/syphlr" target="_blank" rel="noopener noreferrer"/);
+    assert.match(html, /data-i18n="support"/);
+    assert.ok(existsSync(new URL('icons/coffee.svg', extension)));
+    for (const match of html.matchAll(/<script[^>]+src="([^"]+)"/g)) assert.doesNotMatch(match[1], /^(?:https?:)?\/\//);
+    assert.doesNotMatch(html, /kofiwidget2|Widget_2\.js/);
 });
