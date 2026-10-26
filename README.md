@@ -61,3 +61,7 @@ Uncheck **Enable classic appearance** in the extension popup to restore Yahoo's 
 ## License
 
 MIT — copyright 2026 athor.
+
+<img width="857" height="428" alt="2old" src="https://github.com/user-attachments/assets/82a74f18-1d7b-4d65-bfd1-1f4d4bce6575" />
+<img width="160" height="296" alt="1 addon" src="https://github.com/user-attachments/assets/72a9cec3-2624-4be8-9cd1-84ad63a00679" />
+<img width="128" height="128" alt="Yahoo Old" src="https://github.com/user-attachments/assets/45c2820a-a87a-4418-945e-5cb42032a45a" /> 
