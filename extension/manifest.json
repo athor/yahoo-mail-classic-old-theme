@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Yahoo Mail Classic Old Theme",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "author": "athor",
   "description": "A classic-inspired purple appearance for the current Yahoo Mail interface.",
   "homepage_url": "https://github.com/athor/yahoo-mail-classic-old-theme",
@@ -23,7 +23,7 @@
   }],
   "browser_specific_settings": {
     "gecko": {
-      "id": "yahoo-classique@athor.github.io",
+      "id": "yahoo-mail-classic-old-theme@athor.github.io",
       "strict_min_version": "140.0",
       "data_collection_permissions": { "required": ["none"] }
     }
