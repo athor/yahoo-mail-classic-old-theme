@@ -14,7 +14,7 @@ if not all(part.isdecimal() for part in version.split(".")):
     raise ValueError("Invalid package version")
 destination = root / "dist"
 destination.mkdir(exist_ok=True)
-archive = destination / f"yahoo-classic-old-theme-{version}.zip"
+archive = destination / f"yahoo-mail-classic-old-theme-{version}.zip"
 stamp = datetime.now().strftime("%Y%m%d-%H%M%S-%f")
 if archive.exists():
     copy2(archive, archive.with_name(archive.name + ".backup-" + stamp))

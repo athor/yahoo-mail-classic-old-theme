@@ -21,7 +21,7 @@ function popup(saved = {}, { readFails = false, writeFails = false } = {}) {
     const context = vm.createContext({
         document: { documentElement: root, getElementById: id => ids.get(id), querySelectorAll: () => textElements },
         browser: {
-            runtime: { getManifest: () => ({ version: '1.1.1' }) },
+            runtime: { getManifest: () => ({ version: '1.1.2' }) },
             storage: { local: {
                 get: async defaults => { if (readFails) throw Error('read'); return { ...defaults, ...state }; },
                 set: async values => {
@@ -65,7 +65,7 @@ test('popup defaults to English with the runtime version', async () => {
     const view = popup(); await view.ready();
     assert.equal(view.root.lang, 'en');
     assert.equal(view.ids.get('status').textContent, view.messages.en.active);
-    assert.equal(view.ids.get('version').textContent, '1.1.1');
+    assert.equal(view.ids.get('version').textContent, '1.1.2');
     assert.equal(view.ids.get('enabled').disabled, false);
     assert.equal(view.ids.get('language').disabled, false);
 });

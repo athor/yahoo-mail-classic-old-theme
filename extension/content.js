@@ -93,6 +93,6 @@
     browser.storage.local.get({ enabled: true }).then(values => {
         if (revision === initialRevision) apply(values.enabled !== false);
     }).catch(() => {
-        console.warn('Yahoo Classic Old Theme: local settings could not be read.');
+        console.warn('Yahoo Mail Classic Old Theme: local settings could not be read.');
     });
 })();

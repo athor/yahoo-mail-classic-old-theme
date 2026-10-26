@@ -1,4 +1,4 @@
-# Yahoo Classic Old Theme
+# Yahoo Mail Classic Old Theme
 
 An independent Firefox extension by **athor** that gives the current Yahoo Mail interface a purple, classic-inspired appearance. It does not restore Yahoo's discontinued interfaces.
 
@@ -24,7 +24,7 @@ The styling targets the application interface. It does not change message bodies
 3. Click **Load Temporary Add-on…**.
 4. Select `extension/manifest.json` from this project.
 5. Return to Yahoo Mail and reload the page once.
-6. Click Firefox's Extensions button, then **Yahoo Classic Old Theme**, to access the on/off switch.
+6. Click Firefox's Extensions button, then **Yahoo Mail Classic Old Theme**, to access the on/off switch.
 
 A temporary installation is removed when Firefox restarts. Permanent installation in standard Firefox requires Mozilla signing, including for privately distributed, unlisted extensions. Publishing the source on GitHub does not sign the extension. See [Mozilla's signing documentation](https://extensionworkshop.com/documentation/publish/signing-and-distribution-overview/).
 
