@@ -1,0 +1,15 @@
+body {
+    width: 290px;
+    margin: 0;
+    padding: 18px;
+    background: #fafaff;
+    color: #262333;
+}
+h1 { margin: 0 0 12px; color: #6945e6; }
+p { line-height: 1.4; }
+label { display: flex; align-items: center; gap: 8px; padding: 12px 0; }
+input { accent-color: #7451fa; }
+input:focus-visible, a:focus-visible { outline: 2px solid #7451fa; outline-offset: 3px; }
+#status { min-height: 2.8em; }
+hr { border: 0; border-top: 1px solid #e0ddeb; }
+a { color: #6032d7; }

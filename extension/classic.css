@@ -1,0 +1,82 @@
+/* Yahoo Classique 1.0.0 — application chrome only. Fonts and message geometry are preserved. */
+[data-test-id="novation-ybar-header"],
+        [data-test-id="novation-ybar-header"] [role="banner"] {
+            background: linear-gradient(110deg, #757cff, #7451fa) !important;
+            border-bottom: 1px solid #d8d7ee !important;
+        }
+        [data-test-id="novation-ybar-header"] h1 + a svg,
+        [data-test-id="novation-ybar-header"] h1 + a svg path {
+            fill: white !important;
+        }
+        [data-test-id="novation-ybar-header"] [data-test-id="search-box"] {
+            background: #fff !important;
+            color: #333 !important;
+            border: 1px solid #dbd9ff !important;
+            border-radius: 2px !important;
+            box-shadow: none !important;
+        }
+        [data-test-id="search-box"] [data-test-id="search-basic-btn"] {
+            border-radius: 0 !important;
+        }
+        [data-test-id="novation-left-rail"] {
+            background: #f1f1f5 !important;
+            border-right: 1px solid #dddde5 !important;
+        }
+        [data-test-id="expanded-left-rail"] [data-test-id="left-rail-Compose-icon"] {
+            background: #168aff !important;
+            color: white !important;
+            border: 1px solid #168aff !important;
+            border-radius: 2px !important;
+            box-shadow: none !important;
+        }
+        [data-test-id="expanded-left-rail"] [data-test-id="left-rail-Compose-icon"]:hover {
+            background: #0876df !important;
+        }
+        [data-test-id="expanded-left-rail"] [data-test-id="menu-list-item-link"] {
+            border-radius: 0 !important;
+        }
+        [data-test-id="expanded-left-rail"] [data-test-id="menu-list-item-link"]:hover {
+            background-color: #e3e7f2 !important;
+        }
+        [data-test-id="expanded-left-rail"] [data-test-id="menu-list-item-link"][aria-current="page"] {
+            background-color: #dce8fb !important;
+            box-shadow: inset 3px 0 #168aff !important;
+        }
+        [data-test-id="novation-main-content"] {
+            border-radius: 0 !important;
+            box-shadow: none !important;
+            border: 1px solid #e6e6ed !important;
+        }
+        [data-test-id="message-list-toolbar"] {
+            background-color: #fff !important;
+            border-radius: 0 !important;
+            box-shadow: inset 0 -1px #e6e6ed !important;
+        }
+        [data-test-id="virtual-list"] [data-test-id="message-list-item"] {
+            border-radius: 0 !important;
+            box-shadow: inset 0 -1px #f0f0f5 !important;
+        }
+        [data-test-id="virtual-list"] [data-test-id="message-list-item"]:hover {
+            box-shadow: inset 0 0 0 999px rgba(65, 148, 255, .08), inset 0 -1px #e6e6ed !important;
+        }
+        [data-test-id="novation-right-rail"] {
+            background: #f1f1f5 !important;
+            border-radius: 0 !important;
+            border-left: 1px solid #dddde5 !important;
+        }
+        @media (min-width: 1000px) {
+            [data-test-id="novation-ybar-header"] [data-test-id="search-box"] {
+                transform: translateX(var(--athor-yc-search-shift, 0px)) !important;
+            }
+            [data-test-id="novation-left-rail"]:has([data-test-id="expanded-left-rail"]) {
+                width: 280px !important;
+                min-width: 280px !important;
+                max-width: 280px !important;
+            }
+            [data-test-id="expanded-left-rail"],
+            [data-test-id="expanded-left-rail"] [data-test-id="navigable-list"],
+            [data-test-id="expanded-left-rail"] [data-test-id="menu-list-item"] {
+                width: 100% !important;
+                box-sizing: border-box !important;
+            }
+        }
