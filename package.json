@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Habillage violet classique pour Yahoo Mail dans Firefox",
+  "description": "A classic-inspired purple appearance for Yahoo Mail in Firefox",
   "author": "athor",
   "license": "MIT",
   "scripts": { "test": "node --test tests/*.test.mjs" }

@@ -3,7 +3,7 @@
   "name": "Yahoo Classique",
   "version": "1.0.0",
   "author": "athor",
-  "description": "Un habillage classique violet pour la nouvelle interface Yahoo Mail.",
+  "description": "A classic-inspired purple appearance for the current Yahoo Mail interface.",
   "homepage_url": "https://github.com/athor",
   "permissions": ["storage"],
   "action": {
